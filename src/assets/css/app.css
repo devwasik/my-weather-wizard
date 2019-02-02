@@ -1,0 +1,131 @@
+html{
+  height:100%;
+}
+
+body{
+  height:100%;
+  background-color:#f5f5f5;
+  color: #cecece;
+  font-family: 'Thasadith', sans-serif;
+  font-weight:bold;
+}
+
+.container{
+  width:100%;
+}
+
+.footer{
+  position:absolute;
+  bottom:0;
+  margin-left:40vw;
+}
+
+.navbar{
+  display:inline;
+  text-align:left;
+  color:white;
+  padding:0;
+  margin: 0;
+  margin-left:0 !important
+}
+
+nav ul{
+  padding:15px 10px 0px 10px;
+}
+
+.searchBox{
+  float:right;
+  padding-top:0 !important;
+  margin-top: 0 !important;
+}
+
+.searchBox input{
+  width:15vw !important;
+}
+
+.fas{
+  font-size:x-large;
+  color:black;
+}
+
+.fas:hover{
+  color:royalblue;
+}
+
+.nav ul li{
+  display: inline;
+  padding:5px;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 5vh;
+}
+
+#currentTop{
+  height:25vh;
+  background-color:white;
+  color:black;
+}
+
+.current{
+  border-radius:5px;
+  box-shadow: 3px 3px 5px 3px #cecece;
+  background-color:#6096ba !important;
+  color:white !important;
+}
+
+
+#currentBottom{
+  background-color:orange;
+  margin-top:5vh;
+  height:40vh;
+}
+
+.week{
+  border-radius:5px;
+  box-shadow: 3px 3px 5px 3px #cecece;
+  background-color:red;
+}
+
+#weekTop{
+  height:15vh;
+  background-color:#6096ba;
+  color:white;
+}
+
+
+.rightColSmall{
+  border-radius:5px;
+  box-shadow: 3px 3px 5px 3px #cecece;
+  height:12vh;
+  margin-bottom:5vh;
+  border:thin solid #c5c6c7;
+}
+
+.gridItemHeader{
+  margin-top:1vh;
+  text-decoration:underline;
+}
+
+.gridItemSmallHeader{
+  font-size:0.7em;
+  text-decoration: underline;
+}
+
+.gridItemContent{
+  position: absolute;
+  width:65%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:0.75em;
+}
+
+.gridItemContent table{
+  width:100% !important;
+}
